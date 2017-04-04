@@ -1,0 +1,27 @@
+{
+  "name": "video-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -u tdd",
+    "webpack:node": "node --inspect --debug-brk ./node_modules/webpack/bin/webpack",
+    "webpack": "webpack"
+  },
+  "author": "Rafael @Milewski",
+  "license": "MIT",
+  "dependencies": {
+    "exec-buffer": "^3.1.0",
+    "loader-utils": "^1.1.0",
+    "object-to-spawn-args": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.40",
+    "@types/node": "^7.0.12",
+    "expect.js": "^0.3.1",
+    "file-loader": "^0.11.1",
+    "mocha": "^3.2.0",
+    "typescript": "^2.2.2",
+    "webpack": "^2.3.3"
+  }
+}
