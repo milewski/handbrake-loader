@@ -13,7 +13,7 @@ $ npm install video-loader --save
 
 ## Usage
 
-In your `webpack.config.js` add the imagemin-loader, chained with the [file-loader](https://github.com/webpack/file-loader), [url-loader](https://github.com/webpack/url-loader) or [raw-loader](https://github.com/webpack/raw-loader):
+In your `webpack.config.js` add the video-loader, chained with the [file-loader](https://github.com/webpack/file-loader), [url-loader](https://github.com/webpack/url-loader) or [raw-loader](https://github.com/webpack/raw-loader):
 
 ```js
 module: {
