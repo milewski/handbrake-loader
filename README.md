@@ -1,9 +1,9 @@
 # handbrake-loader
 
-[![Build Status](https://travis-ci.org/Milewski/video-loader.svg?branch=master)](https://travis-ci.org/Milewski/video-loader)
-[![npm version](https://badge.fury.io/js/video-loader.svg)](https://badge.fury.io/js/video-loader)
-[![npm downloads](https://img.shields.io/npm/dm/video-loader.svg)](https://www.npmjs.com/package/video-loader)
-[![dependencies](https://david-dm.org/Milewski/video-loader.svg)](https://www.npmjs.com/package/video-loader)
+[![Build Status](https://travis-ci.org/Milewski/handbrake-loader.svg?branch=master)](https://travis-ci.org/Milewski/handbrake-loader)
+[![npm version](https://badge.fury.io/js/handbrake-loader.svg)](https://badge.fury.io/js/handbrake-loader)
+[![npm downloads](https://img.shields.io/npm/dm/handbrake-loader.svg)](https://www.npmjs.com/package/handbrake-loader)
+[![dependencies](https://david-dm.org/Milewski/handbrake-loader.svg)](https://www.npmjs.com/package/handbrake-loader)
 
 Use HandBrake to Encode/Transcode Video files.
 
