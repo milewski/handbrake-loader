@@ -1,7 +1,7 @@
 type formats = "mp4" | "mkv"
 
 export interface OptionsInterface {
-    enabled: boolean
+    enable: boolean
     format?: formats,
     optimize?: boolean
 }

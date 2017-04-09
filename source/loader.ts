@@ -6,21 +6,21 @@ import { toDashed } from "./helpers";
 import { OptionsInterface } from "./interfaces/OptionsInterface";
 
 export const raw = true;
-export default function (content) {
+export default function(content) {
 
     let tempOptions = getOptions(this) || {},
-        options: OptionsInterface = { enabled: true }
+        options: OptionsInterface = { enable: true }
 
     for (let key in tempOptions) {
         options[toDashed(key)] = tempOptions[key]
     }
 
-    if (options.enabled === false) return content
+    if (options.enable === false) return content;
 
     /**
-     * Remove enabled from the options object as it is an invalid option for HandBrake
+     * Remove enable from the options object as it is an invalid option for HandBrake
      */
-    delete options.enabled;
+    delete options.enable;
 
     /**
      * Im not sure if this will bring any side effect.. but it seems to work

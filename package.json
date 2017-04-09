@@ -1,19 +1,46 @@
 {
-  "name": "video-loader",
+  "name": "handbrake-loader",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "handbrake": "handbrake --help",
-    "test": "mocha test/test.js --no-timeouts",
-    "webpack:node": "node --inspect --debug-brk ./node_modules/webpack/bin/webpack",
-    "webpack": "webpack --config ./test/webpack/webpack.config.js"
-  },
+  "description": "Encode/Transcode videos with webpack",
   "author": "Rafael @Milewski",
   "license": "MIT",
+  "homepage": "https://github.com/Milewski/handbrake-loader",
+  "bugs": {
+    "url": "https://github.com/Milewski/handbrake-loader/issues"
+  },
+  "keywords": [
+    "webpack",
+    "webpack-loader",
+    "subtitle",
+    "burn-subtitle",
+    "handbrake",
+    "encode",
+    "transcode",
+    "video",
+    "mp4",
+    "m4v",
+    "h.264",
+    "h.265",
+    "vp8",
+    "vp9",
+    "mp3"
+  ],
+  "main": "source/loader.js",
+  "files": [
+    "source/*.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Milewski/handbrake-loader.git"
+  },
+  "scripts": {
+    "prepublish": "npm test",
+    "build": "tsc",
+    "pretest": "npm run build",
+    "test": "mocha test/test.js --no-timeouts"
+  },
   "dependencies": {
     "exec-buffer": "^3.1.0",
-    "file-type": "^4.1.0",
     "handbrake-bin": "^1.0.8",
     "loader-utils": "^1.1.0",
     "object-to-spawn-args": "^1.1.0"
@@ -21,6 +48,7 @@
   "devDependencies": {
     "@types/mocha": "^2.2.40",
     "@types/node": "^7.0.12",
+    "file-type": "^4.1.0",
     "expect.js": "^0.3.1",
     "file-loader": "^0.11.1",
     "fs-extra": "^2.1.2",

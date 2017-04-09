@@ -52,7 +52,7 @@ describe('Loader', () => {
             context: __dirname,
             entry: { app: './app.js' },
             output: {
-                path: __dirname + '/artifacts',
+                path: path.resolve(__dirname, 'artifacts'),
                 filename: '[name].js'
             },
             module: {
@@ -63,14 +63,7 @@ describe('Loader', () => {
                             { loader: 'file-loader', options: { name: '[name].[ext]' } },
                             {
                                 loader: require.resolve('../source/loader'),
-                                options: {
-                                    format: 'mp4',
-                                    srtFile: path.resolve(__dirname, 'sample-files/subtitle.srt'),
-                                    srtLang: 'eng',
-                                    srtBurn: 1,
-                                    preset: 'Very Fast 1080p30',
-                                    optimize: true
-                                }
+                                options: { format: 'mp4' }
                             }
                         ]
                     }
