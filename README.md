@@ -6,7 +6,7 @@
 [![dependencies](https://david-dm.org/Milewski/handbrake-loader.svg)](https://www.npmjs.com/package/handbrake-loader)
 [![Greenkeeper badge](https://badges.greenkeeper.io/Milewski/handbrake-loader.svg)](https://greenkeeper.io/)
 
-Use HandBrake to Encode/Transcode Video files.
+Use HandBrake to Encode/Transcode Video files with Webpack.
 
 ## Install
 

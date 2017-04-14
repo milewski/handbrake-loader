@@ -1,6 +1,6 @@
 {
   "name": "handbrake-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Encode/Transcode videos with webpack",
   "author": "Rafael @Milewski",
   "license": "MIT",
@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "exec-buffer": "^3.1.0",
-    "handbrake-bin": "^1.0.8",
+    "handbrake-bin": "^1.1.2",
     "loader-utils": "^1.1.0",
     "object-to-spawn-args": "^1.1.0"
   },

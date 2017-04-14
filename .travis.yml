@@ -1,7 +1,17 @@
-language: node_js
+language: "node_js"
+
 node_js:
   - "node"
   - "7"
   - "6"
   - "5"
   - "4"
+
+sudo: "required"
+dist: "xenial"
+
+before_install:
+  - "if [ $TRAVIS_OS_NAME == 'linux' ]; then sudo add-apt-repository --yes ppa:stebbins/handbrake-releases; fi"
+  - "if [ $TRAVIS_OS_NAME == 'linux' ]; then sudo apt-get update -qq; fi"
+  - "if [ $TRAVIS_OS_NAME == 'linux' ]; then sudo apt-get install -qq handbrake-cli; fi"
+  - "if [ $TRAVIS_OS_NAME == 'linux' ]; then sudo chmod 777 /usr/bin/HandBrakeCLI; fi"
