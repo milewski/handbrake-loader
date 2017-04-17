@@ -2,7 +2,7 @@
   "name": "handbrake-loader",
   "version": "1.0.1",
   "description": "Encode/Transcode videos with webpack",
-  "author": "Rafael @Milewski",
+  "author": "Rafael Milewski <rafael.milewski@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/Milewski/handbrake-loader",
   "bugs": {
@@ -54,6 +54,6 @@
     "fs-extra": "^2.1.2",
     "mocha": "^3.2.0",
     "typescript": "^2.2.2",
-    "webpack": "^2.3.3"
+    "webpack": "^2.4.1"
   }
 }
