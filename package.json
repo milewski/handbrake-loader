@@ -2,11 +2,15 @@
   "name": "handbrake-loader",
   "version": "1.0.1",
   "description": "Encode/Transcode videos with webpack",
-  "author": "Rafael Milewski <rafael.milewski@gmail.com>",
+  "author": {
+    "name": "Rafael Milewski",
+    "email": "rafael.milewski@gmail.com",
+    "url": "https://github.com/milewski"
+  },
   "license": "MIT",
-  "homepage": "https://github.com/Milewski/handbrake-loader",
+  "homepage": "https://github.com/milewski/handbrake-loader",
   "bugs": {
-    "url": "https://github.com/Milewski/handbrake-loader/issues"
+    "url": "https://github.com/milewski/handbrake-loader/issues"
   },
   "keywords": [
     "webpack",
@@ -31,7 +35,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Milewski/handbrake-loader.git"
+    "url": "git+https://github.com/milewski/handbrake-loader.git"
   },
   "scripts": {
     "prepublish": "npm test",
