@@ -402,4 +402,4 @@ More at [https://handbrake.fr/docs/en/1.0.0/cli/cli-guide.html](https://handbrak
 
 ## License 
 
-[MIT](LICENSE)
+[MIT](LICENSE) © [Rafael Milewski](https://rafael-milewski.com?github=readme)
