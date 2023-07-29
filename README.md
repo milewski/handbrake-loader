@@ -1,10 +1,7 @@
 # handbrake-loader
 
-[![Build Status](https://travis-ci.org/milewski/handbrake-loader.svg?branch=master)](https://travis-ci.org/milewski/handbrake-loader)
 [![npm version](https://badge.fury.io/js/handbrake-loader.svg)](https://badge.fury.io/js/handbrake-loader)
 [![npm downloads](https://img.shields.io/npm/dm/handbrake-loader.svg)](https://www.npmjs.com/package/handbrake-loader)
-[![dependencies](https://david-dm.org/milewski/handbrake-loader.svg)](https://www.npmjs.com/package/handbrake-loader)
-[![Greenkeeper badge](https://badges.greenkeeper.io/milewski/handbrake-loader.svg)](https://greenkeeper.io/)
 
 Use HandBrake to Encode/Transcode Video files with Webpack.
 
